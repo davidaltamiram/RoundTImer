@@ -17,11 +17,12 @@ App de temporizador de intervalos para boxeo y rutinas de ejercicio construida c
 - `shared_preferences` — persistencia de datos local
 - `audioplayers` — generación de audio en memoria
 - `uuid` — generación de IDs únicos para rutinas
+- `google_fonts` — tipografía personalizada
+- `flutter_launcher_icons` — ícono de la app
 
 ## Estructura del Proyecto
 lib/
 ├── main.dart
-├── app/
 ├── models/
 │   ├── workout.dart
 │   ├── workout_config.dart
@@ -45,8 +46,8 @@ lib/
 
 ### Requisitos
 
-- Flutter SDK >= 3.0.0
-- Dart SDK >= 3.0.0
+- Flutter SDK >= 3.11.0
+- Dart SDK >= 3.11.0
 - Android Studio o VS Code
 
 ### Instalación

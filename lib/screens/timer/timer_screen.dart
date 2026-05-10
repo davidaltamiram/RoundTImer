@@ -1,6 +1,5 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:round_timer_app/models/timer_phase.dart';
 import 'package:round_timer_app/models/workout_config.dart';
 import 'package:round_timer_app/services/timer_service.dart';
@@ -180,7 +179,8 @@ class _TimerScreenState extends State<TimerScreen> {
                                       WorkoutConfig.formatSeconds(
                                         secondsRemaining,
                                       ),
-                                      style: GoogleFonts.shareTechMono(
+                                      style: const TextStyle(
+                                        fontFamily: 'ShareTechMono',
                                         fontSize: 64,
                                         fontWeight: FontWeight.w700,
                                         color: AppColors.textPrimary,
